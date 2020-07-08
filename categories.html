@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+</head>
+<body>
+    <div class="container-fluid" style="margin-bottom: 20px;">
+        <nav>
+          <div class="nav-wrapper blue">
+            <a href="#" class="brand-logo left">MYadmin</a>
+            <ul id="nav-mobile" class=" right hide-on-med-and-down">
+              <li><a href="index.html">Dashboard</a></li>
+              <li><a href="Posts.html">Posts</a></li>
+              <li><a href="categories.html">categories</a></li>
+              <li><a href="Comments.html">Comments</a></li>
+              <li><a href="Users.html">Users</a></li>
+            </ul>
+            <li class="li right"><a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons right">menu</i></a></li>
+          </div>
+        </nav>     
+        <ul id="slide-out" class="sidenav">
+          <li><div class="user-view">
+            <div class="background">
+              <img src="ad.jpg">
+            </div>
+            <a href="#user"><img class="circle" src="d.jpeg"></a>
+            <a href="#name"><span class="white-text name">Rachida</span></a>
+            <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+          </div></li>
+          <li><a href="#!"><i class="material-icons">apps</i>Dashboard</a></li>
+          <li><a href="sass.html">Dashboard</a></li>
+          <li><a href="badges.html">Posts</a></li>
+          <li><a href="badges.html">categories</a></li>
+          <li><a href="badges.html">Comments</a></li>
+          <li></li>
+          <li><a href="badges.html">Users</a></li>
+          <li><div class="divider"></div></li>
+          <li><a class="waves-effect" href="#!">gogout</a></li>
+          <li><a class="subheader">Account Control</a></li>
+        </ul>
+       </div>
+    <div class="container-fluid">
+        <div class="container">
+            <h6>Categories</h6>
+       <div class="card">
+        <table>
+            <thead>
+                <tr>
+                    <th>Title</th>
+                    <th>Category</th>
+                    <th>Date create</th>
+                    <th>   </th>
+                </tr>
+              </thead>
+      
+              <tbody>
+                <tr class="#eeeeee grey lighten-3">  
+                  <td>Web Development</td>
+                  <td>oct1,2019</td>
+                   <td><a class="waves-effect blue waves-light btn">Details</a></td>
+                </tr>
+                <tr>
+                  <td>Graphic Design</td>
+                  <td>oct 2,2019</td>
+                   <td><a class="waves-effect blue waves-light btn">Details</a></td>
+                </tr>
+                <tr class="b #eeeeee grey lighten-3">
+                  <td>Tech Gdgets</td>
+                  <td>oct3,2019</td>
+                  <td><a class="waves-effect blue waves-light btn">Details</a></td>
+                </tr>
+            </tr>
+            <tr >
+              <td>other</td>
+              <td>oct3,2019</td>
+              <td><a class="waves-effect blue waves-light btn">Details</a></td>
+            </tr>
+        </table>
+        <ul class="pagination">
+            <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+            <li class="active blue"><a href="#!">1</a></li>
+            <li class="waves-effect"><a href="#!">2</a></li>
+            <li class="waves-effect"><a href="#!">3</a></li>
+            <li class="waves-effect"><a href="#!">4</a></li>
+            <li class="waves-effect"><a href="#!">5</a></li>
+            <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+          </ul>
+       </div>
+        </div>
+    </div>
+    <div class="container-fluid blue" style="padding-top: 10px; padding-bottom: 10px;"> 
+        <div class="container">
+            My admin codeloccolCopyright© 2019
+           </div>
+    </div>
+
+    <link href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all" rel="stylesheet" id="font-awesome-5-kit-css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.fixed-action-btn');
+      var instances = M.FloatingActionButton.init(elems, options);
+    });
+  
+    // Or with jQuery
+  
+    $(document).ready(function(){
+      $('.fixed-action-btn').floatingActionButton();
+    });</script>
+    <script>
+  $(document).ready(function(){
+  $('.slider').slider();
+  });
+  </script>
+  <script>
+  $(document).ready(function(){
+  $('input.autocomplete').autocomplete({
+    data: {
+      "Apple": null,
+      "Microsoft": null,
+      "fachi": null,
+      "niamey": null,
+      "Maradi": null,
+      "Google": 'https://placehold.it/250x250'
+    },
+  });
+  });
+  </script>
+  <script>
+    $(document).ready(function(){
+  $('.sidenav').sidenav();
+  });
+  </script>
+  <script>
+     var ctx = document.getElementById('myChart').getContext('2d');
+  var chart = new Chart(ctx, {
+      // The type of chart we want to create
+      type: 'line',
+  
+      // The data for our dataset
+      data: {
+          labels: [ '0','1', '2', '3', '3', '4','5','6','7','8','9','10','11'],
+          datasets: [{
+              label: 'My First dataset',
+              backgroundColor: '',
+              borderColor: '#000000 black',
+              data: [450, 420, 530, 458, 450,500,490,495,390,500,480,515]
+          }]
+      },
+  
+      // Configuration options go here
+      options: {}
+  });
+   </script>
+   <script>
+  
+    document.addEventListener('DOMContentLoaded', function() {
+      var elems = document.querySelectorAll('.dropdown-trigger');
+      var instances = M.Dropdown.init(elems, options);
+    });
+  
+    // Or with jQuery
+  
+    $('.dropdown-trigger').dropdown();
+   </script>
+   <script>  document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.modal');
+    var instances = M.Modal.init(elems, options);
+  });
+  
+  // Or with jQuery
+  
+  $(document).ready(function(){
+    $('.modal').modal();
+  });
+          </script>
+          <script>
+            CKEDITOR.replace( 'editor1' );
+          </script>
+  
+  
+</body>
+</html>
